@@ -1,0 +1,365 @@
+{
+  "habilidades": ["Programacion", "RedesNeuronales", "SistemasDigitales"],
+  "preguntas": [
+    {
+      "id": 101,
+      "habilidad": "Programacion",
+      "texto": "En programación, ¿qué es una 'variable'?",
+      "opciones": [
+        "Un bucle que se repite",
+        "Un contenedor de datos",
+        "Una función matemática",
+        "Un error en el código"
+      ],
+      "respuesta_correcta": "Un contenedor de datos"
+    },
+    {
+      "id": 102,
+      "habilidad": "Programacion",
+      "texto": "¿Para qué sirve principalmente un bucle 'for'?",
+      "opciones": [
+        "Para tomar decisiones",
+        "Para almacenar un solo valor",
+        "Repetir código un número de veces",
+        "Para definir un estilo"
+      ],
+      "respuesta_correcta": "Repetir código un número de veces"
+    },
+    {
+      "id": 103,
+      "habilidad": "Programacion",
+      "texto": "¿Qué es una 'función'?",
+      "opciones": [
+        "Un bloque de código reutilizable",
+        "Un tipo de dato numérico",
+        "Una condición 'if-else'",
+        "Una variable que nunca cambia"
+      ],
+      "respuesta_correcta": "Un bloque de código reutilizable"
+    },
+    {
+      "id": 104,
+      "habilidad": "Programacion",
+      "texto": "¿Qué tipo de dato usarías para 'verdadero' o 'falso'?",
+      "opciones": [
+        "Integer",
+        "String",
+        "Float",
+        "Booleano"
+      ],
+      "respuesta_correcta": "Booleano"
+    },
+    {
+      "id": 105,
+      "habilidad": "Programacion",
+      "texto": "¿Qué instrucción usas para tomar decisiones (si esto... entonces aquello)?",
+      "opciones": [
+        "for",
+        "while",
+        "if",
+        "function"
+      ],
+      "respuesta_correcta": "if"
+    },
+    {
+      "id": 106,
+      "habilidad": "Programacion",
+      "texto": "¿Cómo se llama una colección ordenada de elementos, como [1, 2, 3]?",
+      "opciones": [
+        "Objeto",
+        "Array",
+        "Booleano",
+        "Integer"
+      ],
+      "respuesta_correcta": "Array"
+    },
+    {
+      "id": 107,
+      "habilidad": "Programacion",
+      "texto": "¿Qué tipo de dato se usa para almacenar texto?",
+      "opciones": [
+        "String",
+        "Number",
+        "Boolean",
+        "Array"
+      ],
+      "respuesta_correcta": "String"
+    },
+    {
+      "id": 108,
+      "habilidad": "Programacion",
+      "texto": "¿Qué significa 'API'?",
+      "opciones": [
+        "Interfaz de programación de aplicaciones",
+        "Algoritmo de predicción integrado",
+        "Archivo de programa interno",
+        "Automatización de procesos interna"
+      ],
+      "respuesta_correcta": "Interfaz de programación de aplicaciones"
+    },
+    {
+      "id": 109,
+      "habilidad": "Programacion",
+      "texto": "¿Qué tipo de dato es el número '10' (sin decimales)?",
+      "opciones": [
+        "Float",
+        "String",
+        "Integer",
+        "Booleano"
+      ],
+      "respuesta_correcta": "Integer"
+    },
+    {
+      "id": 110,
+      "habilidad": "Programacion",
+      "texto": "¿Qué hace la instrucción 'else'?",
+      "opciones": [
+        "Repite un bloque de código",
+        "Termina la ejecución del programa",
+        "Ejecuta código si la condición 'if' es falsa",
+        "Define una nueva variable"
+      ],
+      "respuesta_correcta": "Ejecuta código si la condición 'if' es falsa"
+    },
+    {
+      "id": 201,
+      "habilidad": "RedesNeuronales",
+      "texto": "¿Cuál es la unidad básica de procesamiento de una red neuronal?",
+      "opciones": [
+        "Neurona",
+        "Capa",
+        "Peso",
+        "Algoritmo"
+      ],
+      "respuesta_correcta": "Neurona"
+    },
+    {
+      "id": 202,
+      "habilidad": "RedesNeuronales",
+      "texto": "¿Cómo se llama el proceso de ajustar los pesos de la red usando datos?",
+      "opciones": [
+        "Predicción",
+        "Entrenamiento",
+        "Clasificación",
+        "Inferencia"
+      ],
+      "respuesta_correcta": "Entrenamiento"
+    },
+    {
+      "id": 203,
+      "habilidad": "RedesNeuronales",
+      "texto": "¿Qué capa de una red neuronal recibe los datos del mundo real?",
+      "opciones": [
+        "Capa de salida",
+        "Capa oculta",
+        "Capa de entrada",
+        "Capa de activación"
+      ],
+      "respuesta_correcta": "Capa de entrada"
+    },
+    {
+      "id": 204,
+      "habilidad": "RedesNeuronales",
+      "texto": "¿Qué capa produce el resultado final o la predicción?",
+      "opciones": [
+        "Capa de salida",
+        "Capa de entrada",
+        "Capa oculta",
+        "Capa de datos"
+      ],
+      "respuesta_correcta": "Capa de salida"
+    },
+    {
+      "id": 205,
+      "habilidad": "RedesNeuronales",
+      "texto": "¿Cómo se llaman las capas entre la entrada y la salida?",
+      "opciones": [
+        "Capas intermedias",
+        "Capas de conexión",
+        "Capas ocultas",
+        "Capas de pesos"
+      ],
+      "respuesta_correcta": "Capas ocultas"
+    },
+    {
+      "id": 206,
+      "habilidad": "RedesNeuronales",
+      "texto": "¿Qué algoritmo famoso se usa para propagar el error hacia atrás en la red?",
+      "opciones": [
+        "ReLU",
+        "Backpropagation",
+        "Sigmoide",
+        "Perceptrón"
+      ],
+      "respuesta_correcta": "Backpropagation"
+    },
+    {
+      "id": 207,
+      "habilidad": "RedesNeuronales",
+      "texto": "¿Cómo se llaman los parámetros numéricos que la red ajusta durante el entrenamiento?",
+      "opciones": [
+        "Neuronas",
+        "Capas",
+        "Pesos",
+        "Funciones"
+      ],
+      "respuesta_correcta": "Pesos"
+    },
+    {
+      "id": 208,
+      "habilidad": "RedesNeuronales",
+      "texto": "¿Para qué sirve una 'función de activación' (ej. ReLU, Sigmoide)?",
+      "opciones": [
+        "Para iniciar la red",
+        "Para almacenar datos",
+        "Para detener el entrenamiento",
+        "Introduce no linealidad"
+      ],
+      "respuesta_correcta": "Introduce no linealidad"
+    },
+    {
+      "id": 209,
+      "habilidad": "RedesNeuronales",
+      "texto": "¿Qué es el 'Deep Learning'?",
+      "opciones": [
+        "Redes neuronales con muchas capas",
+        "Un tipo de dato complejo",
+        "El estudio de una sola neurona",
+        "Un sinónimo de 'Programación'"
+      ],
+      "respuesta_correcta": "Redes neuronales con muchas capas"
+    },
+    {
+      "id": 210,
+      "habilidad": "RedesNeuronales",
+      "texto": "¿Cómo se llama el modelo de red neuronal más simple, con una sola neurona?",
+      "opciones": [
+        "Multicapa",
+        "Perceptrón",
+        "Deep Learning",
+        "Backpropagation"
+      ],
+      "respuesta_correcta": "Perceptrón"
+    },
+    {
+      "id": 301,
+      "habilidad": "SistemasDigitales",
+      "texto": "¿Cuál es la unidad mínima de información digital (un 0 o un 1)?",
+      "opciones": [
+        "Byte",
+        "Hertz",
+        "Bit",
+        "Pixel"
+      ],
+      "respuesta_correcta": "Bit"
+    },
+    {
+      "id": 302,
+      "habilidad": "SistemasDigitales",
+      "texto": "¿Qué dispositivo realiza operaciones lógicas básicas (AND, OR, NOT)?",
+      "opciones": [
+        "CPU",
+        "RAM",
+        "Compuerta lógica",
+        "Fuente de poder"
+      ],
+      "respuesta_correcta": "Compuerta lógica"
+    },
+    {
+      "id": 303,
+      "habilidad": "SistemasDigitales",
+      "texto": "¿Qué sistema numérico usan las computadoras internamente?",
+      "opciones": [
+        "Decimal",
+        "Hexadecimal",
+        "Binario",
+        "Romano"
+      ],
+      "respuesta_correcta": "Binario"
+    },
+    {
+      "id": 304,
+      "habilidad": "SistemasDigitales",
+      "texto": "¿Cuántos bits forman un 'byte'?",
+      "opciones": [
+        "4",
+        "8",
+        "16",
+        "10"
+      ],
+      "respuesta_correcta": "8"
+    },
+    {
+      "id": 305,
+      "habilidad": "SistemasDigitales",
+      "texto": "¿Qué sistema numérico (base 16) usa los dígitos 0-9 y A-F?",
+      "opciones": [
+        "Binario",
+        "Hexadecimal",
+        "Octal",
+        "Decimal"
+      ],
+      "respuesta_correcta": "Hexadecimal"
+    },
+    {
+      "id": 306,
+      "habilidad": "SistemasDigitales",
+      "texto": "¿Qué compuerta lógica da '1' (verdadero) solo si AMBAS entradas son '1'?",
+      "opciones": [
+        "OR",
+        "NOT",
+        "AND",
+        "XOR"
+      ],
+      "respuesta_correcta": "AND"
+    },
+    {
+      "id": 307,
+      "habilidad": "SistemasDigitales",
+      "texto": "¿Qué compuerta lógica da '1' (verdadero) si AL MENOS UNA entrada es '1'?",
+      "opciones": [
+        "OR",
+        "AND",
+        "NOT",
+        "XNOR"
+      ],
+      "respuesta_correcta": "OR"
+    },
+    {
+      "id": 308,
+      "habilidad": "SistemasDigitales",
+      "texto": "¿Qué compuerta lógica invierte su entrada (0 se vuelve 1, 1 se vuelve 0)?",
+      "opciones": [
+        "AND",
+        "OR",
+        "NAND",
+        "NOT"
+      ],
+      "respuesta_correcta": "NOT"
+    },
+    {
+      "id": 309,
+      "habilidad": "SistemasDigitales",
+      "texto": "¿Cómo se llama el 'cerebro' principal de la computadora?",
+      "opciones": [
+        "RAM",
+        "GPU",
+        "CPU",
+        "Disco Duro"
+      ],
+      "respuesta_correcta": "CPU"
+    },
+    {
+      "id": 310,
+      "habilidad": "SistemasDigitales",
+      "texto": "¿Qué componente de hardware almacena un solo bit de memoria?",
+      "opciones": [
+        "Compuerta lógica",
+        "Flip-Flop",
+        "CPU",
+        "Resistencia"
+      ],
+      "respuesta_correcta": "Flip-Flop"
+    }
+  ]
+}
